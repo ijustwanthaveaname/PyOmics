@@ -1,0 +1,15 @@
+Status	/home/ywwang/phdProject/PyOmics/example/rnaseq/aligndir/HBR_Rep3_ERCC-Mix2_Build37-ErccTranscripts-chr22Aligned.sortedByCoord.out.bam	/home/ywwang/phdProject/PyOmics/example/rnaseq/aligndir/UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22Aligned.sortedByCoord.out.bam	/home/ywwang/phdProject/PyOmics/example/rnaseq/aligndir/UHR_Rep2_ERCC-Mix1_Build37-ErccTranscripts-chr22Aligned.sortedByCoord.out.bam	/home/ywwang/phdProject/PyOmics/example/rnaseq/aligndir/UHR_Rep3_ERCC-Mix1_Build37-ErccTranscripts-chr22Aligned.sortedByCoord.out.bam	/home/ywwang/phdProject/PyOmics/example/rnaseq/aligndir/HBR_Rep1_ERCC-Mix2_Build37-ErccTranscripts-chr22Aligned.sortedByCoord.out.bam	/home/ywwang/phdProject/PyOmics/example/rnaseq/aligndir/HBR_Rep2_ERCC-Mix2_Build37-ErccTranscripts-chr22Aligned.sortedByCoord.out.bam
+Assigned	41399	64561	42895	51458	38129	46722
+Unassigned_Unmapped	0	0	0	0	0	0
+Unassigned_Read_Type	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0
+Unassigned_MultiMapping	1738	11561	8201	9222	1508	1890
+Unassigned_Secondary	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0
+Unassigned_NoFeatures	20323	30907	31080	24783	18529	21854
+Unassigned_Overlapping_Length	0	0	0	0	0	0
+Unassigned_Ambiguity	5272	6989	4492	5747	4686	5939

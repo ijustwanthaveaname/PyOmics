@@ -1,0 +1,352 @@
+STAR version=2.7.10b
+STAR compilation time,server,dir=2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+STAR git: On branch master ; commit c6f8efc2c7043ef83bf8b0d9bed36bbb6b9b1133 ; diff files: CHANGES.md 
+##### Command Line:
+/home/ywwang/miniconda3/envs/PyRNASeq/bin/STAR --genomeDir /home/ywwang/phdProject/PyOmics/example/rnaseq/genome --runThreadN 40 --readFilesIn /home/ywwang/phdProject/PyOmics/example/rnaseq/QC/UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22.read1.clean.fq.gz /home/ywwang/phdProject/PyOmics/example/rnaseq/QC/UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22.read2.clean.fq.gz --readFilesCommand zcat --outFileNamePrefix /home/ywwang/phdProject/PyOmics/example/rnaseq/aligndir/UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22 --outSAMtype BAM SortedByCoordinate --outSAMstrandField intronMotif --outSAMattributes All --outFilterIntronMotifs RemoveNoncanonical --outBAMsortingThreadN 40
+##### Initial USER parameters from Command Line:
+outFileNamePrefix                 /home/ywwang/phdProject/PyOmics/example/rnaseq/aligndir/UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22
+###### All USER parameters from Command Line:
+genomeDir                     /home/ywwang/phdProject/PyOmics/example/rnaseq/genome     ~RE-DEFINED
+runThreadN                    40     ~RE-DEFINED
+readFilesIn                   /home/ywwang/phdProject/PyOmics/example/rnaseq/QC/UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22.read1.clean.fq.gz   /home/ywwang/phdProject/PyOmics/example/rnaseq/QC/UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22.read2.clean.fq.gz        ~RE-DEFINED
+readFilesCommand              zcat        ~RE-DEFINED
+outFileNamePrefix             /home/ywwang/phdProject/PyOmics/example/rnaseq/aligndir/UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22     ~RE-DEFINED
+outSAMtype                    BAM   SortedByCoordinate        ~RE-DEFINED
+outSAMstrandField             intronMotif     ~RE-DEFINED
+outSAMattributes              All        ~RE-DEFINED
+outFilterIntronMotifs         RemoveNoncanonical     ~RE-DEFINED
+outBAMsortingThreadN          40     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runThreadN                        40
+genomeDir                         /home/ywwang/phdProject/PyOmics/example/rnaseq/genome
+readFilesIn                       /home/ywwang/phdProject/PyOmics/example/rnaseq/QC/UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22.read1.clean.fq.gz   /home/ywwang/phdProject/PyOmics/example/rnaseq/QC/UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22.read2.clean.fq.gz   
+readFilesCommand                  zcat   
+outFileNamePrefix                 /home/ywwang/phdProject/PyOmics/example/rnaseq/aligndir/UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22
+outSAMtype                        BAM   SortedByCoordinate   
+outSAMstrandField                 intronMotif
+outSAMattributes                  All   
+outBAMsortingThreadN              40
+outFilterIntronMotifs             RemoveNoncanonical
+
+-------------------------------
+##### Final effective command line:
+/home/ywwang/miniconda3/envs/PyRNASeq/bin/STAR   --runThreadN 40   --genomeDir /home/ywwang/phdProject/PyOmics/example/rnaseq/genome   --readFilesIn /home/ywwang/phdProject/PyOmics/example/rnaseq/QC/UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22.read1.clean.fq.gz   /home/ywwang/phdProject/PyOmics/example/rnaseq/QC/UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22.read2.clean.fq.gz      --readFilesCommand zcat      --outFileNamePrefix /home/ywwang/phdProject/PyOmics/example/rnaseq/aligndir/UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22   --outSAMtype BAM   SortedByCoordinate      --outSAMstrandField intronMotif   --outSAMattributes All      --outBAMsortingThreadN 40   --outFilterIntronMotifs RemoveNoncanonical
+----------------------------------------
+
+Number of fastq files for each mate = 1
+
+   Input read files for mate 1 :
+-rw-r--r-- 1 ywwang zxchen 14253901 Feb 25 23:22 /home/ywwang/phdProject/PyOmics/example/rnaseq/QC/UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22.read1.clean.fq.gz
+
+   readsCommandsFile:
+exec > "/home/ywwang/phdProject/PyOmics/example/rnaseq/aligndir/UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22_STARtmp/tmp.fifo.read1"
+echo FILE 0
+zcat      "/home/ywwang/phdProject/PyOmics/example/rnaseq/QC/UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22.read1.clean.fq.gz"
+
+
+   Input read files for mate 2 :
+-rw-r--r-- 1 ywwang zxchen 15653723 Feb 25 23:22 /home/ywwang/phdProject/PyOmics/example/rnaseq/QC/UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22.read2.clean.fq.gz
+
+   readsCommandsFile:
+exec > "/home/ywwang/phdProject/PyOmics/example/rnaseq/aligndir/UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22_STARtmp/tmp.fifo.read2"
+echo FILE 0
+zcat      "/home/ywwang/phdProject/PyOmics/example/rnaseq/QC/UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22.read2.clean.fq.gz"
+
+WARNING --outSAMstrandField=intronMotif, therefore STAR will output XS attribute
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+WARNING: --limitBAMsortRAM=0, will use genome size as RAM limit for BAM sorting
+Finished loading and checking parameters
+Reading genome generation parameters:
+### /home/ywwang/miniconda3/envs/PyRNASeq/bin/STAR   --runMode genomeGenerate      --runThreadN 40   --genomeDir /home/ywwang/phdProject/PyOmics/example/rnaseq/genome   --genomeFastaFiles /home/ywwang/phdProject/PyOmics/example/rnaseq/genome/chr22.fa      --genomeSAindexNbases 11   --sjdbGTFfile /home/ywwang/phdProject/PyOmics/example/rnaseq/genome/chr22.gtf
+### GstrandBit=32
+versionGenome                 2.7.4a     ~RE-DEFINED
+genomeType                    Full     ~RE-DEFINED
+genomeFastaFiles              /home/ywwang/phdProject/PyOmics/example/rnaseq/genome/chr22.fa        ~RE-DEFINED
+genomeSAindexNbases           11     ~RE-DEFINED
+genomeChrBinNbits             18     ~RE-DEFINED
+genomeSAsparseD               1     ~RE-DEFINED
+genomeTransformType           None     ~RE-DEFINED
+genomeTransformVCF            -     ~RE-DEFINED
+sjdbOverhang                  100     ~RE-DEFINED
+sjdbFileChrStartEnd           -        ~RE-DEFINED
+sjdbGTFfile                   /home/ywwang/phdProject/PyOmics/example/rnaseq/genome/chr22.gtf     ~RE-DEFINED
+sjdbGTFchrPrefix              -     ~RE-DEFINED
+sjdbGTFfeatureExon            exon     ~RE-DEFINED
+sjdbGTFtagExonParentTranscripttranscript_id     ~RE-DEFINED
+sjdbGTFtagExonParentGene      gene_id     ~RE-DEFINED
+sjdbInsertSave                Basic     ~RE-DEFINED
+genomeFileSizes               52558607   337045314        ~RE-DEFINED
+Genome version is compatible with current STAR
+Number of real (reference) chromosomes= 1
+1	chr22	50818468	0
+--sjdbOverhang = 100 taken from the generated genome
+Started loading the genome: Sun Feb 26 00:04:11 2023
+
+Genome: size given as a parameter = 52558607
+SA: size given as a parameter = 337045314
+SAindex: size given as a parameter = 1
+Read from SAindex: pGe.gSAindexNbases=11  nSAi=5592404
+nGenome=52558607;  nSAbyte=337045314
+GstrandBit=32   SA number of indices=81707954
+Shared memory is not used for genomes. Allocated a private copy of the genome.
+Genome file size: 52558607 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading Genome ... done! state: good=1 eof=0 fail=0 bad=0; loaded 52558607 bytes
+SA file size: 337045314 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading SA ... done! state: good=1 eof=0 fail=0 bad=0; loaded 337045314 bytes
+Loading SAindex ... done: 24466875 bytes
+Finished loading the genome: Sun Feb 26 00:04:11 2023
+
+Processing splice junctions database sjdbN=8471,   pGe.sjdbOverhang=100 
+alignIntronMax=alignMatesGapMax=0, the max intron size will be approximately determined by (2^winBinNbits)*winAnchorDistNbins=589824
+Created thread # 1
+Created thread # 2
+Starting to map file # 0
+mate 1:   /home/ywwang/phdProject/PyOmics/example/rnaseq/QC/UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22.read1.clean.fq.gz
+mate 2:   /home/ywwang/phdProject/PyOmics/example/rnaseq/QC/UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22.read2.clean.fq.gz
+Created thread # 3
+Created thread # 4
+Created thread # 5
+Created thread # 6
+Created thread # 7
+Created thread # 8
+Created thread # 9
+Created thread # 10
+Created thread # 11
+Created thread # 12
+Created thread # 13
+Created thread # 14
+Created thread # 15
+Created thread # 16
+Created thread # 17
+Created thread # 18
+Created thread # 19
+Created thread # 20
+Created thread # 21
+Created thread # 22
+Created thread # 23
+Created thread # 24
+Created thread # 25
+Created thread # 26
+Created thread # 27
+Created thread # 28
+Created thread # 29
+Created thread # 30
+Created thread # 31
+Created thread # 32
+Created thread # 33
+Created thread # 34
+Created thread # 35
+Created thread # 36
+Created thread # 37
+Created thread # 38
+Created thread # 39
+Thread #4 end of input stream, nextChar=-1
+Completed: thread #5
+Completed: thread #6
+Completed: thread #16
+Completed: thread #7
+Completed: thread #8
+Completed: thread #9
+Completed: thread #10
+Completed: thread #19
+Completed: thread #12
+Completed: thread #11
+Completed: thread #13
+Completed: thread #15
+Completed: thread #17
+Completed: thread #18
+Completed: thread #14
+Completed: thread #20
+Completed: thread #21
+Completed: thread #22
+Completed: thread #23
+Completed: thread #24
+Completed: thread #25
+Completed: thread #26
+Completed: thread #27
+Completed: thread #28
+Completed: thread #29
+Completed: thread #30
+Completed: thread #31
+Completed: thread #32
+Completed: thread #33
+Completed: thread #34
+Completed: thread #35
+Completed: thread #36
+Completed: thread #37
+Completed: thread #39
+Completed: thread #38
+Completed: thread #0
+BAM sorting: 129976 mapped reads
+BAM sorting bins genomic start loci:
+1	0	15809904
+2	0	15858058
+3	0	17092093
+4	0	17538552
+5	0	17702364
+6	0	17815559
+7	0	18008342
+8	0	18548402
+9	0	19021340
+10	0	19113555
+11	0	19232475
+12	0	19405835
+13	0	19454733
+14	0	19510132
+15	0	19848433
+16	0	19962785
+17	0	20083216
+18	0	20115445
+19	0	20126361
+20	0	20405726
+21	0	20554578
+22	0	20721325
+23	0	20790044
+24	0	20918420
+25	0	20952072
+26	0	20999803
+27	0	21449686
+28	0	21547036
+29	0	21622119
+30	0	21686538
+31	0	21762176
+32	0	21788256
+33	0	21920022
+34	0	22223186
+35	0	22548101
+36	0	22551071
+37	0	22895566
+38	0	22900993
+39	0	22901028
+40	0	22901065
+41	0	22901130
+42	0	22901168
+43	0	22901208
+44	0	22901232
+45	0	22901263
+46	0	22901295
+47	0	22901322
+48	0	22906383
+49	0	22906429
+50	0	22906461
+51	0	22906495
+52	0	22906519
+53	0	22906542
+54	0	22906676
+55	0	22906698
+56	0	23194051
+57	0	23316912
+58	0	23676571
+59	0	23815935
+60	0	23894892
+61	0	23971539
+62	0	24087523
+63	0	24166830
+64	0	24354139
+65	0	24541072
+66	0	24568061
+67	0	25039211
+68	0	25458372
+69	0	25714437
+70	0	26204340
+71	0	26492376
+72	0	26699918
+73	0	27853682
+74	0	28030327
+75	0	28439427
+76	0	28683629
+77	0	28789086
+78	0	28795323
+79	0	28799144
+80	0	29050015
+81	0	29276404
+82	0	29292136
+83	0	29334296
+84	0	29524041
+85	0	29613289
+86	0	29698484
+87	0	29905262
+88	0	30243248
+89	0	30342591
+90	0	30580173
+91	0	30894263
+92	0	30971538
+93	0	30977628
+94	0	31204852
+95	0	31340486
+96	0	31468242
+97	0	31653254
+98	0	31748351
+99	0	31957073
+100	0	32403048
+101	0	32498585
+102	0	32851349
+103	0	32861162
+104	0	33433629
+105	0	33907401
+106	0	35263800
+107	0	35404323
+108	0	35455532
+109	0	35740998
+110	0	35809908
+111	0	36226652
+112	0	36282082
+113	0	36286874
+114	0	36295552
+115	0	36306525
+116	0	36322476
+117	0	36353933
+118	0	36495963
+Completed: thread #1
+Joined thread # 1
+Completed: thread #2
+Joined thread # 2
+Completed: thread #4
+Completed: thread #3
+Joined thread # 3
+Joined thread # 4
+Joined thread # 5
+Joined thread # 6
+Joined thread # 7
+Joined thread # 8
+Joined thread # 9
+Joined thread # 10
+Joined thread # 11
+Joined thread # 12
+Joined thread # 13
+Joined thread # 14
+Joined thread # 15
+Joined thread # 16
+Joined thread # 17
+Joined thread # 18
+Joined thread # 19
+Joined thread # 20
+Joined thread # 21
+Joined thread # 22
+Joined thread # 23
+Joined thread # 24
+Joined thread # 25
+Joined thread # 26
+Joined thread # 27
+Joined thread # 28
+Joined thread # 29
+Joined thread # 30
+Joined thread # 31
+Joined thread # 32
+Joined thread # 33
+Joined thread # 34
+Joined thread # 35
+Joined thread # 36
+Joined thread # 37
+Joined thread # 38
+Joined thread # 39
+Feb 26 00:17:35 ..... finished mapping
+RAM after mapping:
+VmPeak:	 6962960 kB; VmSize:	 6856384 kB; VmHWM:	 4581900 kB; VmRSS:	 4543668 kB; 
+RAM after freeing genome index memory:
+VmPeak:	 6962960 kB; VmSize:	 6452012 kB; VmHWM:	 4581900 kB; VmRSS:	 4139304 kB; 
+Feb 26 00:17:35 ..... started sorting BAM
+Max memory needed for sorting = 32066845
+ALL DONE!

@@ -1,0 +1,19 @@
+### /home/ywwang/miniconda3/envs/PyRNASeq/bin/STAR   --runMode genomeGenerate      --runThreadN 40   --genomeDir /home/ywwang/phdProject/PyOmics/example/rnaseq/genome   --genomeFastaFiles /home/ywwang/phdProject/PyOmics/example/rnaseq/genome/chr22.fa      --genomeSAindexNbases 11   --sjdbGTFfile /home/ywwang/phdProject/PyOmics/example/rnaseq/genome/chr22.gtf
+### GstrandBit 32
+versionGenome	2.7.4a
+genomeType	Full
+genomeFastaFiles	/home/ywwang/phdProject/PyOmics/example/rnaseq/genome/chr22.fa 
+genomeSAindexNbases	11
+genomeChrBinNbits	18
+genomeSAsparseD	1
+genomeTransformType	None
+genomeTransformVCF	-
+sjdbOverhang	100
+sjdbFileChrStartEnd	- 
+sjdbGTFfile	/home/ywwang/phdProject/PyOmics/example/rnaseq/genome/chr22.gtf
+sjdbGTFchrPrefix	-
+sjdbGTFfeatureExon	exon
+sjdbGTFtagExonParentTranscript	transcript_id
+sjdbGTFtagExonParentGene	gene_id
+sjdbInsertSave	Basic
+genomeFileSizes	52558607 337045314

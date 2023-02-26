@@ -1,0 +1,37 @@
+                                 Started job on |	Feb 26 00:17:43
+                             Started mapping on |	Feb 26 00:17:43
+                                    Finished on |	Feb 26 00:26:53
+       Mapping speed, Million of reads per hour |	1.04
+
+                          Number of input reads |	159242
+                      Average input read length |	199
+                                    UNIQUE READS:
+                   Uniquely mapped reads number |	78467
+                        Uniquely mapped reads % |	49.28%
+                          Average mapped length |	199.81
+                       Number of splices: Total |	29591
+            Number of splices: Annotated (sjdb) |	29300
+                       Number of splices: GT/AG |	29521
+                       Number of splices: GC/AG |	65
+                       Number of splices: AT/AC |	5
+               Number of splices: Non-canonical |	0
+                      Mismatch rate per base, % |	0.17%
+                         Deletion rate per base |	0.01%
+                        Deletion average length |	1.12
+                        Insertion rate per base |	0.01%
+                       Insertion average length |	1.12
+                             MULTI-MAPPING READS:
+        Number of reads mapped to multiple loci |	3159
+             % of reads mapped to multiple loci |	1.98%
+        Number of reads mapped to too many loci |	6
+             % of reads mapped to too many loci |	0.00%
+                                  UNMAPPED READS:
+  Number of reads unmapped: too many mismatches |	0
+       % of reads unmapped: too many mismatches |	0.00%
+            Number of reads unmapped: too short |	77382
+                 % of reads unmapped: too short |	48.59%
+                Number of reads unmapped: other |	228
+                     % of reads unmapped: other |	0.14%
+                                  CHIMERIC READS:
+                       Number of chimeric reads |	0
+                            % of chimeric reads |	0.00%
